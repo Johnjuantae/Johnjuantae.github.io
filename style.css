@@ -1,0 +1,440 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+  font-family:Arial
+}
+
+.container{
+	width: 100%;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+.navbar {
+	height: 100px;
+	padding: 25px;
+	font-size: 30px;
+	font-family: "Lato";
+	font-style: bold;
+	border: 0;
+	background-color: transparent;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	transition-timing-function: ease;
+	transition: height .65s, padding .65s, font-size .65s,
+		font-family .65s, font-style .65s, border .65s, background .65s,
+		text-shadow 0s;
+
+}
+
+.navbar.transition {
+	height: 10px;
+	padding: 0px;
+	font-size: 20px;
+	background: #f2f2f2;
+	color: #f2f2f2;
+	text-shadow: none;
+}
+
+.navbar-left {
+	position: fixed;
+	float: left;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #99ccff;
+}
+
+.navbar.transition .navbar-nav > li > a {
+    color: #000000;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #99ccff;  /*Sets the text hover color on navbar*/
+}
+
+.navbar.transition .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #99ccff;  /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+    color: black;
+}
+
+.navbar .navbar-nav > li > a:focus {
+    color: black;
+}
+
+.navbar.transition .navbar-nav > li > a:focus {
+    color: black;
+}
+
+.navbar.transition .nav li.active a{
+    color: #99ccff;
+}
+
+.intro{
+	min-height: 100%;
+	position: relative;
+    width: 100%;
+    height: auto;
+    background: url(images/bridge-edit.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#intro-body {
+  font-size: 50px;
+  font-family: "Lato";
+  color: #99ccff;
+    text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+    -webkit-font-smoothing: antialiased
+}
+
+.intro-title-text-container {
+	position: absolute;
+	text-align: center;
+	top: 18%;
+	right: 0%;
+  color:black
+}
+
+#intro-title{
+	font-family: "Lato";
+	font-size: 90px;
+	color: #99ccff;
+    text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+    -webkit-font-smoothing: antialiased
+}
+
+
+#image-p{
+  float: right;
+  background-color: #f2f2f2;
+}
+
+.image-x {
+  margin: auto;
+   display:table;
+   position: relative;
+   top: 87px;
+}
+
+#intro-text{
+	font-family: "Lato";
+	font-size: 22px;
+  color: #000000;
+}
+
+.info-content{
+	background-color: white;
+	position: relative;
+}
+
+.info2-content{
+	background-color: #F04B5A;
+}
+
+.p-text {
+	text-align: center;
+	font-family: "Open Sans";
+	font-size: 22px;
+  color: black
+
+}
+
+#about {
+  background-color: white
+}
+
+h1 {
+  color: black
+}
+
+#logo {
+	width: 13%;
+	height: auto;
+	display: inline-block;
+	transition: all 0.65s ease;
+}
+
+#logo.transition1{
+	padding: 8px 8px 25px 5px;
+	margin: auto;
+	width: 10%;
+	height: auto;
+	transition: all 0.65s ease;
+}
+
+#cal-logo {
+	margin: auto;
+	max-width: 10%;
+	height: auto;
+}
+
+.title{
+	text-align: center;
+	font-family: "Open Sans";
+	font-style: normal;
+
+	/* Font-family, bold*/
+}
+
+
+#project {
+  background-color: #99ccff
+}
+
+.project-title {
+	text-align: center;
+	font-family: "Open Sans";
+	color: black;
+	font-size: 30px;
+}
+
+.project-text{
+	font-family: "Open Sans";
+	font-size: 20px;
+  color : #000000
+
+}
+
+.colored {
+	color: white;
+	/* Font-family, font-size */
+}
+
+#contact {
+  background-color: #99ccff
+}
+
+.contact-icons {
+	/*Center and space out icons; add linked */
+	text-align: center;
+}
+
+.fa {
+	padding: 20px;
+}
+
+.icons:link {
+	color: white;
+	-o-transition:.25s;
+ 	-ms-transition:.25s;
+ 	-moz-transition:.25s;
+  	-webkit-transition:.25s;
+  	transition:.25s;
+}
+
+.icons:visited {
+	color: white;
+}
+
+.icons:hover {
+	color: black;
+	-o-transition:.5s;
+ 	-ms-transition:.5s;
+ 	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition:.5s;
+}
+
+.icons:active {
+	color: white;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.4);
+}
+
+.btn {
+	position: relative;
+	color: white;
+	background-color: #99ccff;
+	border-width: 4px;
+	border-color: white;
+	display: block;
+	margin: auto;
+	width: 13%;
+	font-family: "Open Sans";
+	font-size: 24px;
+	padding: 3px;
+	border-radius: 10px;
+	outline: none;
+	-o-transition:..25s;
+ 	-ms-transition:.25s;
+ 	-moz-transition:.25s;
+  	-webkit-transition:.25s;
+  	transition:.25s;
+}
+
+.btn:hover {
+	border-color: black;
+	color: black;
+	background-color: #99ccff;
+	outline: none;
+	-o-transition:.5s;
+ 	-ms-transition:.5s;
+ 	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition:.5s;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+	border-color: black;
+	color: black;
+	background-color: #99ccff;
+    outline: 0 none;
+}
+
+.btn:active:focus, .btn.active:focus {
+	color: white;
+	background-color: #99ccff;
+	border-color: white;
+	outline: none;
+	-o-transition:..25s;
+ 	-ms-transition:.25s;
+ 	-moz-transition:.25s;
+  	-webkit-transition:.25s;
+  	transition:.25s;
+
+}
+
+tr {
+	background-color: #99ccff;
+	font-family: "Open Sans";
+	color: white;
+	border: white;
+	font-size: 18px;
+	text-align: center;
+
+}
+
+td {
+	color: white;
+}
+
+tr:hover {
+	color: black;
+	background-color: #99ccff;
+}
+
+td a {
+	color: white;
+}
+
+td a:focus{
+	color: white;
+	text-decoration: none;
+}
+
+td a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+.proj-link {
+	text-decoration: none;
+	color: black;
+}
+
+.proj-link:focus {
+	color: black;
+	text-decoration: none;
+}
+
+.proj-link:hover {
+	color: black;
+	text-decoration: none;
+}
+
+#music-classifier {
+	width: 28%;
+	height: auto;
+	display: block;
+	margin-left: 30%;
+}
+
+#bnai-emunah{
+	width: 28%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+#gitlet {
+	width: 50%;
+	height: auto;
+	display: block;
+	margin: auto;
+	margin: auto;
+}
+
+#puzzle {
+	width: 40%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+
+.project-image {
+	max-width: 50%;
+	height: auto;
+	display: block;
+	margin: auto;
+	background: blue;
+}
+
+#blizzard-logo {
+	display: block;
+	max-width: 80%;
+	height: auto;
+    margin: auto;
+}
+
+#spring-logo {
+	display: block;
+	max-width: 75%;
+	height: auto;
+    margin: auto;
+}
+
+.experience-date {
+	text-align: center;
+	font-family: "Open Sans";
+	color: black;
+	font-size: 25px;
+}
+
+.experience-text {
+	color: #F04B5A;
+	text-align: center;
+	font-family: "Open Sans";
+	font-size: 22px;
+}

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset = "utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE-edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="css/bootstrap.min.css">
+			<link rel="stylesheet" href="font-awesome-4.4.0/css/font-awesome.min.css">
+			<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300">
+			<link href='https://fonts.googleapis.com/css?family=Lato:700' rel='stylesheet' type='text/css'>
+			<link rel="stylesheet" href="style.css">
+			<link rel="shortcut icon" href="images/CYZ-64.png" type="image/x-icon">
+			<meta property="og:image" content="http://www.chriszhang.xyz/images/CYZ-200.png">
+			<title>John Tae</title>
+			<meta name="author" content="John Tae">
+			<meta name="description" content="Portfolio showcasing my experiences and projects.">
+			<meta name="keywords" content="Chris Christopher Zhang UC Berkeley EECS">
+			<!-- Shoutout to my friend Ishan Goyal for the pictures!! -->
+		</head>
+		<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="51">
+			<div class="wrapper">
+			<!---Navbar-->
+			<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="container-fluid">
+					<div class="navbar-left">
+						<a class="page-scroll" href="#top-page">
+							<img id="logo" src="images/cyzlong.png">
+						</a>
+					</div>
+					<div class="collapse navbar-collapse navbar-right">
+						<ul class="nav navbar-nav">
+		               	<li>
+		                    <a class="nav-item page-scroll" href="#about">About</a>
+		                </li>
+		                <li>
+		                    <a class="nav-item page-scroll" href="#experience">Experience</a>
+		                </li>
+		                <li>
+		                    <a class="nav-item page-scroll" href="#project">Projects</a>
+		                </li>
+		                <li>
+		                    <a class="nav-item page-scroll" href="#coursework">Coursework</a>
+		                </li>
+		                <li>
+		                	<a class="nav-item page-scroll" href="#contact">Contact Me</a>
+		                </li>
+	            		</ul>
+	            	</div>
+	            	<div class="navbar-header page-scroll">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse">
+						    <span class="icon-bar"></span>
+	        				<span class="icon-bar"></span>
+	        				<span class="icon-bar"></span>
+						</button>
+					</div>
+	            </div>
+			</nav>
+			<!--Intro Page-->
+			<div class="container intro" id="top-page">
+				<!--Menu-->
+				<div class="intro-content">
+					<div class="container intro-title-text-container">
+						<h1 id="intro-title">John Tae</h1>
+		            </div>
+		        </div>
+		    </div>
+			<!--About-->
+			<div class="container info2-content" id="about">
+				<div class="row">
+		  			<div class="col-xs-8 col-xs-offset-2 colored">
+		  				<br><br><br>
+						<h1 class="title"><b>About</b></h1>
+						<br><br>
+						<p class="p-text"> I am currently a junior majoring in Electrical Engineering & Computer Sciences at University of California, Berkeley.<br><br>
+						<img src="images/cal-logo.png" id="cal-logo"> <br><br>
+						I grew up in Fremont, California and attended Mission San Jose High School.
+						In my spare time I enjoy weightlifting, playing badminton for the Cal Badminton club, and reading fiction novels.
+						</p>
+						<br><br><br><br><br>
+		  			</div>
+				</div>
+			</div>
+			<!-- Work Experience -->
+			<div class="container info-content" id="experience">
+				<div class="row">
+					<div class="col-xs-8 col-xs-offset-2">
+						<br><br>
+						<h1 class="title"><b>Experience</b></h1>
+						<br><br>
+						<div class="row">
+							<div class="col-xs-8">
+								<h2 class="project-title">Blizzard Entertainment</h2>
+								<p class="experience-date"><i>Software Engineer Intern<br>Summer 2016</i></p>
+								<br>
+								<p class="experience-text">Full stack web development with an emphasis on backend, mainly working with Java and the Spring Framework. </p>
+							</div>
+							<div class="col-xs-4">
+								<a href="http://blizzard.com" target="_blank">
+									<br>
+									<img id="blizzard-logo" src="images/blizzard2.png">
+								</a>
+								<br>
+							</div>
+						</div>
+						<br><br><br><br>
+					</div>
+				</div>
+			</div>
+			<!--Projects-->
+			<div class="container info2-content" id="project">
+				<br><br>
+				<h1 class="title colored"><b>Projects</b></h1>
+				<br>
+				<div class="row">
+					<div class="col-xs-8 col-xs-offset-2 colored">
+						<div class="row project-title">
+							<div class="col-xs-6">
+								Music Classifier
+							</div>
+							<div class="col-xs-6">
+								Congregation B'nai Emunah
+							</div>
+						</div>
+						<br>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-8 col-xs-offset-2 colored">
+						<div class="col-xs-6 image-container">
+							<img src="images/music-classifier.png" id="music-classifier">
+						</div>
+						<div class="col-xs-6 image-container">
+							<img src="images/bnai-emunah.png" id="bnai-emunah">
+						</div>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-xs-8 col-xs-offset-2 colored">
+						<div class="row project-text">
+							<div class="col-xs-6">
+								Django web app that sorts existing SoundCloud and Spotify playlists by genre into new ones using neural networks.
+								<br>
+								Development is currently in progress among a team of three.
+								<br>
+								<a href="https://github.com/zhang-chris/soundcloud-classifier" target="_blank" class="proj-link">Github Repository</a>
+							</div>
+							<div class="col-xs-6">
+								Worked with five others to create a Ruby on Rails web app for <a href="http://bnaiemunahsf.org/" target="_blank" class="proj-link">Congregation B'nai Emunah</a>, a nonprofit Jewish synagogue located in San Francisco. It is an tool used by the synagogue's committee to facilitate internal communication and to store information about its members.
+								<br>
+								<a href="https://github.com/TheXienator/Congregation-Bnai-Emunah" target="_blank" class="proj-link">Github Repository</a>
+							</div>
+						</div>
+						<br>
+					</div>
+				</div>
+				<br>
+			</div>
+			<div class="container info2-content" id="project">
+				<div class="row">
+					<div class="col-xs-10 col-xs-offset-1 colored">
+						<div class="row project-title">
+							<div class="col-xs-4">
+								Gitlet
+							</div>
+							<div class="col-xs-4">
+								Sliding Block Puzzle
+							</div>
+							<div class="col-xs-4">
+								Word Clock
+							</div>
+						</div>
+						<br>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-10 col-xs-offset-1 colored">
+						<div class="col-xs-4">
+							<img src="images/gitlet.png" id="gitlet">
+						</div>
+						<div class="col-xs-4">
+							<img src="images/puzzle1.png" id="puzzle">
+						</div>
+						<div class="col-xs-4">
+							<img src="images/word-clock-cropped.jpg" id="word-clock">
+						</div>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-xs-10 col-xs-offset-1 colored">
+						<div class="row project-text">
+							<div class="col-xs-4">
+								Gitlet is a miniature Java program of the well-known version control system: Git. It has many of the commonly used local functionalities of Git such as commit, checkout, branch, merge, rebase, etc.
+							</div>
+							<div class="col-xs-4">
+								Written in Java, this program solves <a href="https://en.wikipedia.org/wiki/Sliding_puzzle" target="_blank" class="proj-link">sliding block puzzles</a> and was built to maximize efficiency and speed. Given an initial file with the starting coordinates of all the blocks and a goal file with the ending, it utilizes a search algorithm to find the set of corresponding moves that solve the puzzle.
+							</div>
+							<div class="col-xs-4">
+								Based off of scottbez1's Instructable, "<a href="http://www.instructables.com/id/Sleek-word-clock/" target="_blank" class="proj-link">Sleek word clock</a>", this was my first project, introducing me to the Arduino, soldering, and building circuits. It contains a circuit board with a microcontroller, shift registers, and driver ICs to keep track of time and light up the correct LEDs.
+							</div>
+						</div>
+						<br>
+					</div>
+				</div>
+				<br><br><br><br>
+			</div>
+
+			<!--Coursework-->
+			<div class="container info-content" id="coursework">
+				<div class="row">
+		  			<div class="col-xs-8 col-xs-offset-2">
+		  				<br><br>
+						<h1 class="title"><b>Coursework</b></h1>
+						<br><br>
+						<p class="p-text">
+							<table class="table table-bordered">
+								<tbody>
+									<tr>
+										<td>CS 162</td>
+										<td><a href='http://www-inst.eecs.berkeley.edu/~cs162/fa16/' target="_blank">Operating Systems and Systems Programming </a></td>
+										<td>Expected Fall 2016</td>
+									</tr>
+									<tr>
+										<td>CS 168</td>
+										<td><a href='http://www-inst.eecs.berkeley.edu/~cs168/fa16/' target="_blank">Introduction to the Internet: Architecture and Protocols</a></td>
+										<td>Expected Fall 2016</td>
+									</tr>
+									<tr>
+										<td>CS 170</td>
+										<td><a href='http://www-inst.eecs.berkeley.edu/~cs170/sp16/' target="_blank">Efficient Algorithms and Intractable Problems</a></td>
+										<td>Spring 2016</td>
+									</tr>
+									<tr>
+										<td>CS 169</td>
+										<td><a href='http://www-inst.eecs.berkeley.edu/~cs169/sp16' target="_blank">Software Engineering</a></td>
+										<td>Spring 2016</td>
+									</tr>
+									<tr>
+										<td>CS 188</td>
+										<td><a href='http://www-inst.eecs.berkeley.edu/~cs188/fa15' target="_blank">Introduction to Artificial Intelligence</a></td>
+										<td>Fall 2015</td>
+									</tr>
+									<tr>
+									    <td>CS 61C</td>
+									    <td><a href='http://www-inst.eecs.berkeley.edu/~cs61c/fa15/' target="_blank">Great Ideas in Computer Architecture</a></td>
+									    <td>Fall 2015</td>
+									</tr>
+									<tr>
+									    <td>&nbsp;&nbsp;CS 61BL&nbsp;&nbsp;</td>
+									    <td><a href='http://www-inst.eecs.berkeley.edu/~cs61bl/su15/' target="_blank">Data Structures and Programming Methodology</a></td>
+									    <td>Summer 2015</td>
+									</tr>
+									<tr>
+									    <td>CS 70</td>
+									    <td><a href='http://www-inst.eecs.berkeley.edu/~cs70/su15/' target="_blank">Discrete Mathematics and Probability Theory</a></td>
+									    <td>Summer 2015</td>
+									</tr>
+								</tbody>
+							</table>
+						</p>
+						<br><br><br><br>
+		  			</div>
+				</div>
+			</div>
+
+			<!--Contact Me-->
+			<div class="container info2-content" id="contact">
+				<div class="row">
+		  			<div class="col-xs-8 col-xs-offset-2 colored">
+		  				<br><br>
+						<h1 class="title"><b>Contact Me</b></h1>
+						<br>
+						<div class="contact-icons">
+							<!-- <a href="https://www.facebook.com/profile.php?id=100004417720982" class="icons" target="_blank"><i class="fa fa-facebook fa-4x"></i></a> -->
+							<a href="https://www.linkedin.com/in/chrisyzhang" class="icons" target="_blank"><i class="fa fa-linkedin-square fa-4x"></i></a>
+							<a href="mailto:chris.zhang@berkeley.edu" class="icons" target="_blank"><i class="fa fa-envelope-o fa-4x"></i></a>
+							<a href="https://github.com/zhang-chris" class="icons" target="_blank"><i class="fa fa-github fa-4x"></i></a>
+							<br><br><br><br>
+						</div>
+		  			</div>
+				</div>
+			</div>
+		</div>
+
+			<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+			<script language="javascript" type="text/javascript" src="js/bootstrap.min.js"></script>
+			<script src="jquery.easing.min.js"></script>
+			<script type="text/javascript" src="javascript.js"></script>
+			<script>
+				 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  					m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+					  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+				  ga('create', 'UA-67010114-1', 'auto');
+				  ga('send', 'pageview');
+			</script>
+		</body>
+	</html>
